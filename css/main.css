@@ -1,0 +1,53 @@
+body{
+    background: #666666;
+}
+
+body, .textBox h1, .textBox p{
+    margin: 0;
+}
+
+.textBox h1 {
+    color: #4A4A4A;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    padding-bottom: 21px;
+}
+
+.textBox p {
+    color: #4A4A4A;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.textBox button{
+    height: 40px;
+    width: 199px;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+    background-color: #395EAB;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    height: 444px;
+    width: 1024px;
+    background: url('../Images/PicCover.png') no-repeat, url('../Images/PicFamily.jpg') no-repeat;
+}
+
+.textBox{
+    height: 214px;
+    width: 500px;
+    padding-top: 84px;
+    padding-left: 27px;
+}
